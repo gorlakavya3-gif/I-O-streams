@@ -9,11 +9,8 @@ public class Employee implements Serializable {
     private String designation;
     private double salary;
 
-    // No-argument constructor
     public Employee() {
     }
-
-    // Parameterized constructor
     public Employee(String name, Date dateOfBirth, String department,
                     String designation, double salary) {
         this.name = name;
@@ -22,8 +19,6 @@ public class Employee implements Serializable {
         this.designation = designation;
         this.salary = salary;
     }
-
-    // Getters
     public String getName() {
         return name;
     }
@@ -43,8 +38,6 @@ public class Employee implements Serializable {
     public double getSalary() {
         return salary;
     }
-
-    // Setters
     public void setName(String name) {
         this.name = name;
     }
